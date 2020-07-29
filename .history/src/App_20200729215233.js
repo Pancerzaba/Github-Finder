@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Navbar from './components/layout/Navbar';
 import Users from './components/useres/Users';
-import Search from './components/useres/Search';
+import Users from './components/useres/U';
 import axios from 'axios';
 import './App.css';
 
@@ -26,8 +26,7 @@ class App extends Component{
     <div className='App'>
        <Navbar/>
        <div className="container">
-         <Search/>
-        <Users loading={this.state.loading} users={this.state.users}/>
+       <Users loading={this.state.loading} users={this.state.users}/>
        </div>
         
     </div>

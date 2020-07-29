@@ -27,7 +27,7 @@ class App extends Component{
        <Navbar/>
        <div className="container">
          <Search/>
-        <Users loading={this.state.loading} users={this.state.users}/>
+       <Users loading={this.state.loading} users={this.state.users}/>
        </div>
         
     </div>
