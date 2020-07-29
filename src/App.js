@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Navbar from './components/layoyt/Navbar';
+import Navbar from './components/layout/Navbar';
 import Users from './components/useres/Users';
 import axios from 'axios';
 import './App.css';
