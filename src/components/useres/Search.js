@@ -33,7 +33,7 @@ export class Search extends Component {
                     
                 </form>
                 {tshowClear && <button className="btn btn-light btn-block" onClick={clearUsers}>Clear</button>}
-               
+                 
             </div>
         )
     }
